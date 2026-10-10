@@ -11,8 +11,6 @@ A multi-floor hospital network built and configured in Cisco Packet Tracer. Each
 
 ## Topology
 
-![Hospital network topology in Packet Tracer](evidence/topology.png)
-
 | Floor | Departments (VLAN) |
 |-------|--------------------|
 | Floor 1 | Doctors (40), Clinical Staff (20), IT (50), Server Room (60) with DHCP and DNS servers |
@@ -56,15 +54,11 @@ The first `tracert` hop should be the PC's own gateway, which confirms traffic i
 
 **OSPF neighbors** (`show ip ospf neighbor` on a floor router)
 
-![OSPF neighbors](evidence/ospf-neighbors.png)
 
 **VLANs** (`show vlan brief` on a floor switch)
 
-![VLANs](evidence/vlans.png)
 
 **DHCP pools** (the server's Services > DHCP tab)
-
-![DHCP pools](evidence/dhcp-pools.png)
 
 ## Lessons learned
 
